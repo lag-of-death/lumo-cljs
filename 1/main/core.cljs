@@ -1,6 +1,6 @@
-(ns code.core
+(ns main.core
   (:require
-    [code.helpers :refer [router]]
+    [main.router :refer [router]]
     [util.core :refer [print-host]]))
 
 (defonce express (js/require "express"))
