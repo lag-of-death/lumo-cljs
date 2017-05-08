@@ -7,10 +7,10 @@
 
 (defonce compression (js/require "compression"))
 
-(defonce cookieParser (js/require "cookie-parser"))
+(defonce cookie-parser (js/require "cookie-parser"))
 
 (-> (express)
-  (.use (cookieParser))
+  (.use (cookie-parser))
   (.use (compression))
   (.use (.static express "public"))
   (.use print-host)
