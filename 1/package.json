@@ -2,7 +2,8 @@
   "dependencies": {
     "compression": "^1.6.2",
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "express-basic-auth": "^1.2.0"
   },
   "scripts": {
     "start": "lumo -i main/core.cljs"
