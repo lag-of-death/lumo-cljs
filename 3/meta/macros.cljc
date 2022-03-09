@@ -25,7 +25,6 @@
     (println expr)
     `(let [result# ~expr]
       (println "Evaluating:" '~expr)
-      (println "Is expr nil?" (nil? expr))
       (println "Result:" result#)
       result#)))
 
